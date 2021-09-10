@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/',[\App\Http\Controllers\Front\HomeController::class,'index']);
 Route::post('index',[\App\Http\Controllers\Front\HomeController::class,'store'])->name('store');
 Route::post('/',[\App\Http\Controllers\Front\HomeController::class,'index'])->name('index');

@@ -9,7 +9,7 @@
     <link href="front/css/style.css" rel="stylesheet">
 </head>
 <body>
-<div class="wrapper">
+    <div class="wrapper">
     <div class="container">
         <div class="top_19">
             @if(Session::has('success'))
@@ -30,7 +30,6 @@
                             </span>
                     </form>
                 </div>
-
             </div>
             <form action="{{route('store')}}" method="post" class="form_19">
                 @csrf
@@ -97,8 +96,6 @@
         </tbody>
     </table>
 </div>
-
-
 </body>
 </html>
 
